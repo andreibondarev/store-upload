@@ -37,10 +37,10 @@ module.exports = {
         HONEYBADGER_CLIENT_KEY: JSON.stringify(
           process.env.HONEYBADGER_CLIENT_KEY
         ),
-        AUTH0_DOMAIN: JSON.stringify("MAGICSTRING_AUTH0_DOMAIN"),
-        AUTH0_CLIENT_ID: JSON.stringify("MAGICSTRING_AUTH0_CLIENT_ID"),
-        AUTH0_CALLBACK_URL: JSON.stringify("MAGICSTRING_AUTH0_CALLBACK_URL"),
-        AUTH0_AUDIENCE: JSON.stringify("MAGICSTRING_AUTH0_AUDIENCE"),
+        AUTH0_DOMAIN: JSON.stringify("AUTH0_DOMAIN"),
+        AUTH0_CLIENT_ID: JSON.stringify("AUTH0_CLIENT_ID"),
+        AUTH0_CALLBACK_URL: JSON.stringify("AUTH0_CALLBACK_URL"),
+        AUTH0_AUDIENCE: JSON.stringify("AUTH0_AUDIENCE"),
         CMS_URL: JSON.stringify(process.env.CMS_URL)
       }
     }),
