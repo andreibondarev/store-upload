@@ -10,6 +10,7 @@
     "actioncable": "5.0.2",
     "auth0-js": "^9.3.0",
     "expose-loader": "^0.7.3",
+    "express": "^4.16.3",
     "flux": "^3.1.2",
     "honeybadger-js": "^0.5.1",
     "moment": "^2.18.1",
@@ -68,13 +69,10 @@
   },
   "scripts": {
     "start": "node server.js",
+    "dev": "webpack-dev-server --mode development --open",
     "heroku-postbuild": "webpack -p",
     "build": "webpack -p --progress",
-    "start:dev": "webpack-dev-server",
-    "stop": "pkill -9 -f npm & pkill -9 node & nginx -s stop",
     "webpack": "webpack -w --config webpack.config.dev.js",
-    "serve": "nginx  -g 'daemon off;' -c `pwd`/nginx.conf -p `pwd`",
     "test": "mocha -r jsdom-global/register --compilers js:babel-core/register test/**/*.spec.js 'test'"
   }
 }
-
