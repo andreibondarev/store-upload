@@ -299,16 +299,17 @@ attr-accept@^1.0.3:
   dependencies:
     core-js "^2.5.0"
 
-auth0-js@^9.3.0:
-  version "9.4.1"
-  resolved "https://registry.yarnpkg.com/auth0-js/-/auth0-js-9.4.1.tgz#a999c30c5566e4c5c7b3e53ed3bc82f4e4344541"
+auth0-js@^9.8.0:
+  version "9.8.0"
+  resolved "https://registry.yarnpkg.com/auth0-js/-/auth0-js-9.8.0.tgz#512a79d27b48ab7535130f67b9cd797eea40468e"
   dependencies:
     base64-js "^1.2.0"
     idtoken-verifier "^1.2.0"
+    js-cookie "^2.2.0"
     qs "^6.4.0"
     superagent "^3.8.2"
     url-join "^1.1.0"
-    winchan "^0.2.0"
+    winchan "^0.2.1"
 
 autoprefixer@^6.3.1:
   version "6.7.7"
@@ -2499,42 +2500,7 @@ expose-loader@^0.7.3:
   version "0.7.5"
   resolved "https://registry.yarnpkg.com/expose-loader/-/expose-loader-0.7.5.tgz#e29ea2d9aeeed3254a3faa1b35f502db9f9c3f6f"
 
-express@^4.16.2:
-  version "4.16.3"
-  resolved "https://registry.yarnpkg.com/express/-/express-4.16.3.tgz#6af8a502350db3246ecc4becf6b5a34d22f7ed53"
-  dependencies:
-    accepts "~1.3.5"
-    array-flatten "1.1.1"
-    body-parser "1.18.2"
-    content-disposition "0.5.2"
-    content-type "~1.0.4"
-    cookie "0.3.1"
-    cookie-signature "1.0.6"
-    debug "2.6.9"
-    depd "~1.1.2"
-    encodeurl "~1.0.2"
-    escape-html "~1.0.3"
-    etag "~1.8.1"
-    finalhandler "1.1.1"
-    fresh "0.5.2"
-    merge-descriptors "1.0.1"
-    methods "~1.1.2"
-    on-finished "~2.3.0"
-    parseurl "~1.3.2"
-    path-to-regexp "0.1.7"
-    proxy-addr "~2.0.3"
-    qs "6.5.1"
-    range-parser "~1.2.0"
-    safe-buffer "5.1.1"
-    send "0.16.2"
-    serve-static "1.13.2"
-    setprototypeof "1.1.0"
-    statuses "~1.4.0"
-    type-is "~1.6.16"
-    utils-merge "1.0.1"
-    vary "~1.1.2"
-
-express@^4.16.3:
+express@^4.16.2, express@^4.16.3:
   version "4.16.3"
   resolved "http://registry.npmjs.org/express/-/express-4.16.3.tgz#6af8a502350db3246ecc4becf6b5a34d22f7ed53"
   dependencies:
@@ -3731,6 +3697,10 @@ jest-docblock@^21.0.0:
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.3.tgz#2e545ec2b0f2957f41356510205214e98fad6582"
+
+js-cookie@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/js-cookie/-/js-cookie-2.2.0.tgz#1b2c279a6eece380a12168b92485265b35b1effb"
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
@@ -6802,9 +6772,9 @@ wide-align@^1.1.0:
   dependencies:
     string-width "^1.0.2"
 
-winchan@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/winchan/-/winchan-0.2.0.tgz#3863028e7f974b0da1412f28417ba424972abd94"
+winchan@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/winchan/-/winchan-0.2.1.tgz#19b334e49f7c07c0849f921f405fad87dfc8a1da"
 
 window-size@0.1.0:
   version "0.1.0"
