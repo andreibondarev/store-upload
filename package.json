@@ -77,3 +77,4 @@
     "test": "mocha -r jsdom-global/register --compilers js:babel-core/register test/**/*.spec.js 'test'"
   }
 }
+
